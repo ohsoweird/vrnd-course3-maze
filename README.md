@@ -4,7 +4,8 @@ VRND03 is a VR experience that positions the user inside a maze in which he or s
 
 ## Installation
 
-Download the GitHub repository and open the project with Unity.
+Download the GitHub repository and open the project with Unity from http://unity3d.com/
+
 This project has been developed with: Unity version 5.5.0f3 (38b4efef76f0)
 
 

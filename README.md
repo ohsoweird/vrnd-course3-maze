@@ -11,4 +11,10 @@ This project has been developed with: Unity version 5.5.0f3 (38b4efef76f0)
 
 ## Updates
 
+Version 1.3 - 2016-12-25 Working scene + scripts
+
+Version 1.2 - 2016-12-24 Maze built (scripts not working)
+
+Version 1.1 - 2016-12-23 Maze (geometry built)
+
 Version 1.0 - 2016-12-23 Initial commit/upload

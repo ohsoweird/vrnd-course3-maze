@@ -6,13 +6,13 @@ using UnityEngine;
 public class Door : MonoBehaviour 
 {
     // Create a boolean value called "locked" that can be checked in Update() 
-	public bool locked;
-	public bool hasKey;
+	public bool locked = true;
+	public bool theKey = false;
 
 	void Start() {
-		locked = true;
+		// locked = true;
 		// The door is locked by default
-		hasKey = false;
+		// theKey = false;
 		// The player does not have the key at start
 		//
 
@@ -22,7 +22,7 @@ public class Door : MonoBehaviour
 
     void Update() {
         // If the door is unlocked and it is not fully raised
-		if (hasKey == true) {
+		if (theKey) {
 			// Then shift the door up
 			if (transform.position.y < 20f) {
 				// Animate the door raising up for as long as it is below 20 units
@@ -35,6 +35,7 @@ public class Door : MonoBehaviour
 	}
 
     public void Unlock() {
+		Debug.Log ("Door click");
 		// You'll need to set "locked" to true here
 		locked = true;
 	}

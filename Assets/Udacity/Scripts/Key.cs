@@ -21,8 +21,9 @@ public class Key : MonoBehaviour
         // Make sure the poof animates vertically
 		Instantiate(keyPoof, transform.position, Quaternion.Euler(300, 0, 0));
         // Call the Unlock() method on the Door
-		door.GetComponent<Door> ().hasKey = true;
-		// door.Unlock();
+		//door.GetComponent<Door> ().theKey = true;
+		door.theKey = true;
+		door.Unlock();
 
         // Destroy the key. Check the Unity documentation on how to use Destroy
 		Destroy (gameObject, 0.2f);
